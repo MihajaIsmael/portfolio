@@ -1,0 +1,12 @@
+stages:
+  - deploy
+
+import_database:
+  stage: deploy
+  tags:
+    - deploy
+  only:
+    - main
+  script:
+    - chmod +x ./scripts/import-db.sh
+    - ./scripts/import-db.sh
