@@ -4,9 +4,16 @@ set -a
 source .env
 set +a
 
-docker cp ./backup/wordpress-db.sql $WORDPRESS_DB_HOST:/tmp/
+SQL_FILE="./backup/wordpress-db.sql"
 
-docker exec -i $WORDPRESS_DB_HOST \
-  mysql -u $WORDPRESS_DB_USER -p$WORDPRESS_DB_PASSWORD $WORDPRESS_DB_NAME < /tmp/wordpress-db.sql
+if [ ! -f "$SQL_FILE" ]; then
+  echo "❌ Le fichier $SQL_FILE est introuvable."
+  exit 1
+fi
+
+echo "⏳ Importation de la base dans le conteneur $WORDPRESS_DB_HOST..."
+
+cat "$SQL_FILE" | docker exec -i wordpress-db \
+  mysql -u "$WORDPRESS_DB_USER" -p"$WORDPRESS_DB_PASSWORD" "$WORDPRESS_DB_NAME"
 
 echo "✅ Base importée vers $WORDPRESS_DB_NAME"
