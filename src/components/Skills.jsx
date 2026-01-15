@@ -14,8 +14,8 @@ export default function Skills() {
             skills: [
                 { name: 'PHP', level: 'Avancé', value: 90, icon: 'https://cdn.simpleicons.org/php/777BB4' },
                 { name: 'MySQL', level: 'Avancé', value: 85, icon: 'https://cdn.simpleicons.org/mysql/4479A1' },
-                { name: 'Symfony', level: 'Intermédiaire', value: 55, icon: 'https://cdn.simpleicons.org/symfony/000000' },
-                { name: 'Python', level: 'Débutant', value: 20, icon: 'https://cdn.simpleicons.org/python/3776AB' },
+                { name: 'Symfony', level: 'Intermédiaire', value: 60, icon: 'https://cdn.simpleicons.org/symfony/000000' },
+                { name: 'Python', level: 'Débutant', value: 30, icon: 'https://cdn.simpleicons.org/python/3776AB' },
             ]
         },
         {
@@ -34,8 +34,8 @@ export default function Skills() {
             skills: [
                 { name: 'Git', level: 'Avancé', value: 95, icon: 'https://cdn.simpleicons.org/git/F05032' },
                 { name: 'Docker', level: 'Avancé', value: 85, icon: 'https://cdn.simpleicons.org/docker/2496ED' },
-                { name: 'Bash', level: 'Intermédiaire', value: 70, icon: 'https://cdn.simpleicons.org/gnubash/4E4E4E' },
-                { name: 'CI/CD', level: 'Intermédiaire', value: 75, icon: 'https://cdn.simpleicons.org/githubactions/2088FF' }, // Using GitHub Actions as proxy for CI/CD
+                { name: 'Bash', level: 'Intermédiaire', value: 65, icon: 'https://cdn.simpleicons.org/gnubash/4E4E4E' },
+                { name: 'CI/CD', level: 'Intermédiaire', value: 70, icon: 'https://cdn.simpleicons.org/githubactions/2088FF' }, // Using GitHub Actions as proxy for CI/CD
                 { name: 'Harbor', level: 'Intermédiaire', value: 60, icon: 'https://cdn.simpleicons.org/harbor/60B932' },
                 { name: 'Trivy', level: 'Intermédiaire', value: 60, icon: 'https://cdn.simpleicons.org/aquasec/004655' }, // Trivy is by AquaSec
             ]

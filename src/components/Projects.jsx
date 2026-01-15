@@ -41,7 +41,7 @@ export default function Projects() {
             tags: ['Docker', 'CI/CD', 'Harbor', 'Trivy', 'Bash', 'Python'],
             image: 'https://images.unsplash.com/photo-1618060932014-4deda4932554?auto=format&fit=crop&q=80&w=800',
             url: '#',
-            github: '#'
+            github: 'https://gitlab.com/MandaIsmael/secure-software-supply-chain'
         }
     ];
 
