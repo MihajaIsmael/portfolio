@@ -13,16 +13,7 @@ export default defineConfig({
                 drop_console: true, // Retire les console.log en prod
             }
         },
-        // Chunking intelligent
-        rollupOptions: {
-            output: {
-                manualChunks: {
-                    vendor: ['react', 'react-dom'],
-                    // Si vous utilisez d'autres librairies
-                    // animations: ['framer-motion'],
-                }
-            }
-        },
+        
         // Taille maximale avant warning
         chunkSizeWarningLimit: 1000,
     },
