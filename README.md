@@ -1,16 +1,128 @@
-# React + Vite
+# 🚀 React Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Portfolio personnel développé avec **React 19**, **Vite**, **Tailwind CSS** et **Framer Motion**.  
+Ce projet met en avant mes compétences techniques, mes projets et sert de vitrine professionnelle moderne, performante et évolutive.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Fonctionnalités
 
-## React Compiler
+- ⚡ Build ultra-rapide avec **Vite**
+- 🎨 Design moderne avec **Tailwind CSS**
+- 🎬 Animations fluides via **Framer Motion**
+- 🧩 Composants React modulaires
+- 📱 Responsive (desktop & mobile)
+- 🚀 Déploiement automatique sur **GitHub Pages**
+- 🔍 Préparé pour le SEO (optimisations à venir)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Stack technique
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Frontend
+- **React 19**
+- **React DOM**
+- **Vite (rolldown)**
+- **Tailwind CSS**
+- **Framer Motion**
+- **Lucide Icons**
+
+### Qualité & Build
+- ESLint
+- PostCSS & Autoprefixer
+- Terser (minification)
+
+### Déploiement
+- GitHub Pages (`gh-pages`)
+
+---
+
+## 📦 Installation
+
+### 1️⃣ Cloner le projet
+```bash
+git clone https://github.com/MihajaIsmael/portfolio.git
+cd portfolio
+```
+
+### 2️⃣ Installer les dépendances
+```bash
+npm install
+```
+
+---
+
+## ▶️ Lancer le projet en local
+
+```bash
+npm run dev
+```
+
+👉 Application disponible sur :  
+`http://localhost:5173`
+
+---
+
+## 🏗️ Build de production
+
+```bash
+npm run build
+```
+
+Prévisualiser le build :
+```bash
+npm run preview
+```
+
+---
+
+## 🚀 Déploiement sur GitHub Pages
+
+Le projet est configuré pour GitHub Pages avec la propriété `homepage`.
+
+```bash
+npm run deploy
+```
+
+➡️ Le site sera accessible à l’adresse :  
+🔗 **https://mihajaismael.github.io/portfolio**
+
+---
+
+## 📂 Structure du projet
+
+```text
+src/
+├── components/     # Composants React (Hero, Skills, Projects, etc.)
+├── data/           # Données (skills, projets…)
+├── assets/         # Images et ressources
+├── App.jsx
+├── main.jsx
+└── index.css
+```
+
+---
+
+## 🔮 Améliorations prévues
+
+- SEO avancé (meta tags, OpenGraph, sitemap)
+- Lazy loading des images
+- Lighthouse optimisations
+- Dark mode persistant
+- Tests unitaires (Vitest)
+
+---
+
+## 👤 Auteur
+
+**Ismael Ravalomanda**  
+Développeur Web | React • PHP • DevSecOps  
+
+- GitHub : [@MihajaIsmael](https://github.com/MihajaIsmael)
+- LinkedIn : Ismaël Ravalomanda
+
+---
+
+## 📄 Licence
+
+Projet personnel – librement consultable à des fins d’inspiration.
