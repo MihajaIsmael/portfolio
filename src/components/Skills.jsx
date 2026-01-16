@@ -24,7 +24,13 @@ export default function Skills() {
 
                 <div className="grid md:grid-cols-3 gap-8">
                     {skillCategories.map((category, index) => (
-                        <SkillCategory key={index} category={category} index={index} />
+                        <motion.div
+                            key={index}
+                            whileHover={{ y: -5, scale: 1.02 }}
+                            className="bg-white rounded-2xl shadow-lg p-8 border border-gray-100 hover:shadow-xl transition-shadow"
+                        >
+                            <SkillCategory category={category} index={index} />
+                        </motion.div>
                     ))}
                 </div>
             </div>
