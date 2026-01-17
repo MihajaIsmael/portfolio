@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
-import { Copy, Github, Linkedin, Mail } from "lucide-react";
+import { Copy, Github, Linkedin, Mail, Download } from "lucide-react";
 import { useState } from "react";
+import cvFile from "../assets/CV-IsmaelRAVALOMANDA.pdf";
 
 export default function Contact() {
     const [copied, setCopied] = useState(false);
@@ -57,6 +58,14 @@ export default function Contact() {
                             <Copy className="w-5 h-5" />
                             {copied ? "Copié !" : "Copier l’email"}
                         </button>
+                        <a
+                            href={cvFile}
+                            download="CV-IsmaelRAVALOMANDA.pdf"
+                            className="inline-flex items-center gap-2 bg-emerald-600 text-white px-6 py-3 rounded-full font-semibold hover:bg-emerald-700 transition-all shadow-lg"
+                        >
+                            <Download className="w-5 h-5" />
+                            Télécharger mon CV
+                        </a>
                     </div>
 
                     <div className="mt-10 flex justify-center gap-6 text-gray-500 dark:text-gray-400">
