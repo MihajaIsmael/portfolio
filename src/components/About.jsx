@@ -11,8 +11,8 @@ export default function About() {
         >
             <h2 className="text-3xl font-semibold mb-4">À propos</h2>
             <p className="text-gray-700 max-w-2xl mx-auto">
-                Développeur web avec 7 ans d'expérience sur PHP, JavaScript et 1CRM. Passionné par
-                la création de solutions efficaces pour les clients et l'optimisation des workflows.
+                Développeur backend orienté web avec 7 ans d’expérience sur PHP, JavaScript et 1CRM, j’interviens sur des applications existantes pour les stabiliser, les faire évoluer et les optimiser.
+Habitué aux environnements métiers (ERP, CRM, outils internes), je travaille sur la résolution de bugs, le développement de fonctionnalités, le refactoring du code et l’amélioration des workflows, avec une approche pragmatique et orientée résultats.
             </p>
         </motion.section>
     );

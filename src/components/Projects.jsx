@@ -4,7 +4,7 @@ import { projectList } from '../data/projects';
 
 export default function Projects() {
     return (
-        <section className="mt-2 text-gray-800 py-16 px-6" id="projects">
+        <section className="mt-8 text-gray-800 py-16 px-6" id="projects">
             <motion.div
                 initial={{ opacity: 0, y: -20 }}
                 whileInView={{ opacity: 1, y: 0 }}
