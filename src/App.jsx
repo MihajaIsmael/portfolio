@@ -16,14 +16,14 @@ export default function App() {
                 <Hero
                     title="Développeur Backend PHP & Symfony"
                     subtitle="Interventions rapides sur vos applications web"
-                    description={`Un bug bloque votre équipe ? Une fonctionnalité urgente à développer ?
+                    description={`Un bug critique, une fonctionnalité urgente ou une application à faire évoluer ?
 J'interviens rapidement avec 7 ans d'expérience backend.
 
 Mes interventions :
-✓ Résolution de bugs critiques
-✓ Développement de nouvelles features
-✓ Refactoring et optimisations
-✓ Maintenance et mises à jour de sécurité`}
+✓ Résolution de bugs critiques et incidents bloquants
+✓ Développement et évolution de fonctionnalités
+✓ Refactoring, optimisation des performances
+✓ Maintenance applicative et mises à jour de sécurité`}
                     badge="Freelance – missions, corrections & améliorations"
                     ctaContact="#contact"
                     ctaProjects="#projects"

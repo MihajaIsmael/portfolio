@@ -9,16 +9,23 @@ export default function Header() {
             transition={{ duration: 0.4 }}
             className="sticky top-0 z-50 bg-white/90 backdrop-blur border-b border-gray-100"
         >
-            <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+            <div className="max-w-7xl mx-auto px-1 py-2 flex items-center justify-between">
                 {/* Branding */}
-                <div className="flex flex-col leading-tight">
-                    <span className="font-extrabold text-gray-900 text-lg">
-                        Ismael Ravalomanda
-                    </span>
-                    <span className="text-sm text-gray-500">
-                        Développeur Backend PHP / Symfony
-                    </span>
-                </div>
+                <a href="#hero" className="flex items-center gap-3 hover:opacity-80 transition-opacity">
+                    <img
+                        src="ir.jpg"
+                        alt="Ismael Ravalomanda"
+                        className="w-10 h-10 rounded-full object-cover border border-gray-200 shadow-sm"
+                    />
+                    <div className="flex flex-col leading-tight">
+                        <span className="font-extrabold text-gray-900 text-lg">
+                            Ismael Ravalomanda
+                        </span>
+                        <span className="text-sm text-gray-500">
+                            Développeur Backend PHP | Symfony
+                        </span>
+                    </div>
+                </a>
 
                 {/* Navigation */}
                 <nav className="hidden md:flex items-center gap-8 text-sm font-medium text-gray-700">
