@@ -1,22 +1,22 @@
-// vite.config.js - optimisations
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
+import { ViteImageOptimizer } from 'vite-plugin-image-optimizer'
 
 export default defineConfig({
-    plugins: [react()],
+    plugins: [
+        react(),
+        ViteImageOptimizer({
+            png: { quality: 80 },
+            jpeg: { quality: 80 },
+            webp: { quality: 80 },
+        }),
+    ],
     base: '/portfolio/',
     build: {
-        // Minification plus agressive
-        minify: 'terser',
-        terserOptions: {
-            compress: {
-                drop_console: true, // Retire les console.log en prod
-            }
-        },
-        
-        // Taille maximale avant warning
         chunkSizeWarningLimit: 1000,
     },
-    // Optimisation des images
-    assetsInclude: ['**/*.png', '**/*.jpg', '**/*.svg'],
+    // Si vous utilisez rolldown/oxc dans Vite v7+
+    oxc: {
+        drop: ['console', 'debugger'],
+    }
 })

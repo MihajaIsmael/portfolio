@@ -57,7 +57,7 @@ export default function Hero({ title, subtitle, description, badge, ctaContact, 
                         href={ctaProjects}
                         className="group flex items-center gap-2 bg-white text-gray-900 border border-gray-200 px-8 py-4 rounded-full font-semibold hover:bg-gray-50 hover:scale-105 transition-all shadow-sm dark:bg-gray-800 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700"
                     >
-                        Voir mes projets
+                        Voir mes réalisations
                         <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                     </a>
                 </motion.div>

@@ -11,7 +11,7 @@ export const serviceCategories = [
         icon: Bug,
         color: "red",
         items: [
-            "Correction de bugs PHP / JavaScript",
+            "Correction de bugs",
             "Dépannage urgent",
             "Stabilisation d’applications existantes",
         ],
@@ -43,7 +43,7 @@ export const serviceCategories = [
         items: [
             "Bonnes pratiques de sécurité",
             "Audit applicatif basique",
-            "Automatisation CI/CD (DevSecOps)",
+            "Automatisation CI/CD",
         ],
     },
 ];

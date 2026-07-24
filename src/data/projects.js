@@ -1,9 +1,16 @@
+import zeendocImg from "../assets/projects/zeendoc.png";
+import crmImg from "../assets/projects/1crm-metier.png";
+import cervoprintImg from "../assets/projects/cervoprint.png";
+import portfolioImg from "../assets/projects/portfolio.png";
+import pennylaneImg from "../assets/projects/pennylane.png";
+import vokatraImg from "../assets/projects/saisie-vokatra.png";
+
 export const projectList = [
     {
         name: '1CRM - Modules Métiers',
         desc: 'Conception et intégration de modules personnalisés adaptés aux besoins spécifiques des départements (Comptabilité, Commerce, Direction, Gestion de Projet), améliorant l\'efficacité opérationnelle.',
         tags: ['PHP', 'MySQL', 'JavaScript', 'Smarty', 'Git'],
-        image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800',
+        image: crmImg,
         url: '#',
         github: '#'
     },
@@ -11,7 +18,7 @@ export const projectList = [
         name: '1CRM - Connecteur Zeendoc',
         desc: 'Développement d\'une passerelle API pour l\'importation automatique et la gestion centralisée des factures depuis la solution GED Zeendoc.',
         tags: ['PHP', 'MySQL', 'SOAP', 'Smarty', 'Git'],
-        image: 'https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&q=80&w=800',
+        image: zeendocImg,
         url: '#',
         github: '#'
     },
@@ -19,7 +26,7 @@ export const projectList = [
         name: '1CRM - Connecteur Cervoprint',
         desc: 'Implémentation d\'un flux automatisé pour la récupération et le traitement des commandes via l\'API Cervoprint, fluidifiant la chaîne logistique.',
         tags: ['PHP', 'MySQL', 'API REST', 'Smarty', 'Git'],
-        image: 'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&q=80&w=800',
+        image: cervoprintImg,
         url: '#',
         github: '#'
     },
@@ -27,16 +34,24 @@ export const projectList = [
         name: 'Portfolio Personnel',
         desc: 'Site vitrine personnel développé en React, mettant en avant mes compétences et réalisations avec des animations fluides et une interface responsive.',
         tags: ['React', 'Tailwind CSS', 'Framer Motion', 'Vite'],
-        image: 'https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&q=80&w=800',
+        image: portfolioImg,
         url: 'https://mihajaismael.github.io/portfolio',
         github: 'https://github.com/MihajaIsmael/portfolio'
     },
     {
-        name: 'Sécurisation Supply Chain',
-        desc: 'Déploiement d\'une architecture DevSecOps robuste : pipeline CI/CD, scan de vulnérabilités (Trivy), registre privé (Harbor) et automatisation (En cours).',
-        tags: ['Docker', 'CI/CD', 'Harbor', 'Trivy', 'Bash', 'Python'],
-        image: 'https://images.unsplash.com/photo-1618060932014-4deda4932554?auto=format&fit=crop&q=80&w=800',
+        name: 'Connecteur Synchronisation 1CRM ↔ Pennylane',
+        desc: 'Conception et développement d\'une intégration API REST bidirectionnelle entre 1CRM et Pennylane. Automation du flux comptable : synchronisation automatique des clients, produits, factures et avoirs vers Pennylane, et remonte des factures d\'achat vers 1CRM.',
+        tags: ['PHP', 'API REST', 'Pennylane API', 'MySQL', 'Git'],
+        image: pennylaneImg,
         url: '#',
-        github: 'https://gitlab.com/MandaIsmael/secure-software-supply-chain'
-    }
+        github: '#'
+    },
+    {
+        name: 'Application de Saisie Vokatra & Impression Code-Barres',
+        desc: 'Développement d\'une application sur-mesure de saisie de production (Vokatra) avec génération et impression automatique / directe de codes-barres. Optimisation du flux opérationnel terrain, réduction des erreurs de saisie et traçabilité immédiate.',
+        tags: ['PHP', 'MongoDB', 'JavaScript', 'Docker', 'Git'],
+        image: vokatraImg,
+        url: '#',
+        github: 'https://github.com/MihajaIsmael/ambohimanambola-saisie-vokatra'
+    },
 ];

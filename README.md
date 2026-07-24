@@ -116,7 +116,7 @@ src/
 ## 👤 Auteur
 
 **Ismael Ravalomanda**  
-Développeur Web | React • PHP • DevSecOps  
+Software Developer
 
 - GitHub : [@MihajaIsmael](https://github.com/MihajaIsmael)
 - LinkedIn : Ismaël Ravalomanda

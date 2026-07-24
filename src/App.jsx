@@ -8,23 +8,27 @@ import About from './components/About';
 import Footer from './components/Footer';
 
 export default function App() {
+    const startYear = 2018;
+    const startMonth = 10;
+
+    const today = new Date();
+    let yearsOfExperience = today.getFullYear() - startYear;
+
+    if (today.getMonth() < startMonth) {
+        yearsOfExperience--;
+    }
     return (
         <div className="min-h-screen bg-gray-100">
             <Header />
 
             <main>
                 <Hero
-                    title="Développeur Backend PHP & Symfony"
-                    subtitle="Interventions rapides sur vos applications web"
-                    description={`Un bug critique, une fonctionnalité urgente ou une application à faire évoluer ?
-J'interviens rapidement avec 7 ans d'expérience backend.
+                    title="Tech Lead & Développeur Backend Senior PHP"
+                    subtitle="Expertise Architectures Complexes, Optimisation & Évolutions Applicatives"
+                    description={`Un bug critique, une dette technique qui ralentit votre plateforme, ou un système complexe à faire évoluer ?
 
-Mes interventions :
-✓ Résolution de bugs critiques et incidents bloquants
-✓ Développement et évolution de fonctionnalités
-✓ Refactoring, optimisation des performances
-✓ Maintenance applicative et mises à jour de sécurité`}
-                    badge="Freelance – missions, corrections & améliorations"
+Fort de ${yearsOfExperience}+ ans d'expérience backend sur des architectures d'entreprise à fort volume, j'interviens pour sécuriser, optimiser et faire évoluer vos applications PHP.`}
+                    badge="Stabilisation, Performance & Évolutions"
                     ctaContact="#contact"
                     ctaProjects="#projects"
                 />

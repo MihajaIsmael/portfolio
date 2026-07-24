@@ -22,7 +22,7 @@ export default function Header() {
                             Ismael Ravalomanda
                         </span>
                         <span className="text-sm text-gray-500">
-                            Développeur Backend PHP | Symfony
+                            Software Developer
                         </span>
                     </div>
                 </a>

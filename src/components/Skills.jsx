@@ -22,7 +22,7 @@ export default function Skills() {
                     </p>
                 </motion.div>
 
-                <div className="grid md:grid-cols-3 gap-8">
+                <div className="grid md:grid-cols-2 gap-8">
                     {skillCategories.map((category, index) => (
                         <motion.div
                             key={index}
